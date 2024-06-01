@@ -1,0 +1,20 @@
+{
+	"dependencies": {
+		"@techstark/opencv-js": "4.9.0-release.3",
+		"axios": "^1.7.2",
+		"canvas": "^2.11.2",
+		"puppeteer": "^22.10.0",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-click-and-wait": "^2.3.3",
+		"puppeteer-extra-plugin-stealth": "^2.11.2"
+	},
+	"name": "urbtix",
+	"version": "1.0.0",
+	"description": "bot for urbtix",
+	"main": "start.js",
+	"scripts": {
+		"dev": "node start.js"
+	},
+	"author": "Danny Cheung <cheungkahoforwork@gmail.com>",
+	"license": "ISC"
+}
