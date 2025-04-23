@@ -152,8 +152,8 @@ async function login() {
   try {
     console.log("login")
     await page.waitForSelector('input[name="loginId"]');
-    await page.type('input[name="loginId"]', 'sobad2009');
-    await page.type('input[name="password"]', '#P43q77x47k43');
+    await page.type('input[name="loginId"]', 'account ID here');
+    await page.type('input[name="password"]', 'password here');
     await page.click('.login-button');
 
     await captcha();
